@@ -15,6 +15,7 @@
 		041CB61429D058C20019D3FF /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB61329D058C20019D3FF /* FavoritesListVC.swift */; };
 		041CB61629D062460019D3FF /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB61529D062460019D3FF /* GFButton.swift */; };
 		041CB61829D066590019D3FF /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB61729D066590019D3FF /* GFTextField.swift */; };
+		041CB61A29D1A8750019D3FF /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB61929D1A8750019D3FF /* FollowerListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		041CB61329D058C20019D3FF /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		041CB61529D062460019D3FF /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		041CB61729D066590019D3FF /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		041CB61929D1A8750019D3FF /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +46,6 @@
 		041CB5F129D0411A0019D3FF = {
 			isa = PBXGroup;
 			children = (
-				041CB61529D062460019D3FF /* GFButton.swift */,
-				041CB61729D066590019D3FF /* GFTextField.swift */,
 				041CB5FC29D0411A0019D3FF /* GHFollowers */,
 				041CB5FB29D0411A0019D3FF /* Products */,
 			);
@@ -66,6 +66,9 @@
 				041CB5FF29D0411A0019D3FF /* SceneDelegate.swift */,
 				041CB61129D0586A0019D3FF /* SearchVC.swift */,
 				041CB61329D058C20019D3FF /* FavoritesListVC.swift */,
+				041CB61929D1A8750019D3FF /* FollowerListVC.swift */,
+				041CB61529D062460019D3FF /* GFButton.swift */,
+				041CB61729D066590019D3FF /* GFTextField.swift */,
 				041CB60629D0411C0019D3FF /* Assets.xcassets */,
 				041CB60829D0411C0019D3FF /* LaunchScreen.storyboard */,
 				041CB60B29D0411C0019D3FF /* Info.plist */,
@@ -147,6 +150,7 @@
 				041CB61429D058C20019D3FF /* FavoritesListVC.swift in Sources */,
 				041CB61629D062460019D3FF /* GFButton.swift in Sources */,
 				041CB61229D0586A0019D3FF /* SearchVC.swift in Sources */,
+				041CB61A29D1A8750019D3FF /* FollowerListVC.swift in Sources */,
 				041CB5FE29D0411A0019D3FF /* AppDelegate.swift in Sources */,
 				041CB60029D0411A0019D3FF /* SceneDelegate.swift in Sources */,
 			);
