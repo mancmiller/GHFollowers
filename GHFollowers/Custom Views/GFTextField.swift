@@ -22,11 +22,11 @@ class GFTextField: UITextField {
         translatesAutoresizingMaskIntoConstraints = false
         
         layer.cornerRadius = 10
-        layer.borderWidth = 2
-        layer.borderColor = UIColor.systemGray4.cgColor
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.systemGray5.cgColor
         
-        textColor = .label
-        tintColor = .label
+        textColor = .systemGray
+        tintColor = .systemGray
         textAlignment = .center
         font = UIFont.preferredFont(forTextStyle: .title2)
         adjustsFontSizeToFitWidth = true
