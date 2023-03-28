@@ -20,6 +20,9 @@
 		041CB61E29D1DDEB0019D3FF /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB61D29D1DDEB0019D3FF /* GFBodyLabel.swift */; };
 		041CB62029D1DEFC0019D3FF /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB61F29D1DEFC0019D3FF /* GFAlertVC.swift */; };
 		041CB62229D1EA870019D3FF /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CB62129D1EA870019D3FF /* UIViewController+Ext.swift */; };
+		047E9D4329D2AF5300B9D115 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047E9D4229D2AF5300B9D115 /* NetworkManager.swift */; };
+		04CF8B0A29D201460016B000 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF8B0829D201460016B000 /* Follower.swift */; };
+		04CF8B0B29D201460016B000 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CF8B0929D201460016B000 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		041CB61D29D1DDEB0019D3FF /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		041CB61F29D1DEFC0019D3FF /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		041CB62129D1EA870019D3FF /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		047E9D4229D2AF5300B9D115 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04CF8B0829D201460016B000 /* Follower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		04CF8B0929D201460016B000 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +76,13 @@
 		041CB5FC29D0411A0019D3FF /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				047E9D4129D2AF3E00B9D115 /* Managers */,
 				041CB62529D1F0B20019D3FF /* Extensions */,
 				041CB62329D1EFBF0019D3FF /* Controllers */,
 				041CB62429D1F0330019D3FF /* Custom Views */,
 				041CB62629D1F11A0019D3FF /* Models */,
+				041CB5FD29D0411A0019D3FF /* AppDelegate.swift */,
+				041CB5FF29D0411A0019D3FF /* SceneDelegate.swift */,
 				041CB60629D0411C0019D3FF /* Assets.xcassets */,
 				041CB60829D0411C0019D3FF /* LaunchScreen.storyboard */,
 				041CB60B29D0411C0019D3FF /* Info.plist */,
@@ -114,10 +123,18 @@
 		041CB62629D1F11A0019D3FF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				041CB5FD29D0411A0019D3FF /* AppDelegate.swift */,
-				041CB5FF29D0411A0019D3FF /* SceneDelegate.swift */,
+				04CF8B0829D201460016B000 /* Follower.swift */,
+				04CF8B0929D201460016B000 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		047E9D4129D2AF3E00B9D115 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				047E9D4229D2AF5300B9D115 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CF8B0B29D201460016B000 /* User.swift in Sources */,
 				041CB61829D066590019D3FF /* GFTextField.swift in Sources */,
 				041CB61429D058C20019D3FF /* FavoritesListVC.swift in Sources */,
 				041CB61629D062460019D3FF /* GFButton.swift in Sources */,
@@ -197,7 +215,9 @@
 				041CB61229D0586A0019D3FF /* SearchVC.swift in Sources */,
 				041CB62029D1DEFC0019D3FF /* GFAlertVC.swift in Sources */,
 				041CB61E29D1DDEB0019D3FF /* GFBodyLabel.swift in Sources */,
+				04CF8B0A29D201460016B000 /* Follower.swift in Sources */,
 				041CB61C29D1DBEA0019D3FF /* GFTitleLabel.swift in Sources */,
+				047E9D4329D2AF5300B9D115 /* NetworkManager.swift in Sources */,
 				041CB61A29D1A8750019D3FF /* FollowerListVC.swift in Sources */,
 				041CB5FE29D0411A0019D3FF /* AppDelegate.swift in Sources */,
 				041CB60029D0411A0019D3FF /* SceneDelegate.swift in Sources */,
