@@ -40,6 +40,7 @@
 		04EC51DA29D58F5B00E5C58F /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51D929D58F5B00E5C58F /* String+Ext.swift */; };
 		04EC51DC29D6EA5C00E5C58F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51DB29D6EA5C00E5C58F /* PersistenceManager.swift */; };
 		04EC51DE29D6F58100E5C58F /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51DD29D6F58100E5C58F /* FavoriteCell.swift */; };
+		04EC51E129D80F0F00E5C58F /* GFTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51E029D80F0F00E5C58F /* GFTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		04EC51D929D58F5B00E5C58F /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		04EC51DB29D6EA5C00E5C58F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		04EC51DD29D6F58100E5C58F /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		04EC51E029D80F0F00E5C58F /* GFTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +118,7 @@
 				041CB62329D1EFBF0019D3FF /* Controllers */,
 				041CB62429D1F0330019D3FF /* Custom Views */,
 				041CB62629D1F11A0019D3FF /* Models */,
-				041CB5FD29D0411A0019D3FF /* AppDelegate.swift */,
-				041CB5FF29D0411A0019D3FF /* SceneDelegate.swift */,
-				041CB60629D0411C0019D3FF /* Assets.xcassets */,
-				041CB60829D0411C0019D3FF /* LaunchScreen.storyboard */,
+				04EC51E229D80F3300E5C58F /* Support */,
 				041CB60B29D0411C0019D3FF /* Info.plist */,
 			);
 			path = GHFollowers;
@@ -139,6 +138,7 @@
 		041CB62429D1F0330019D3FF /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				04EC51DF29D80EE300E5C58F /* TabBarControllers */,
 				0498F0D829D416D500ADE047 /* Labels */,
 				0498F0D729D4169900ADE047 /* VCs */,
 				0498F0D629D4169100ADE047 /* ImageViews */,
@@ -260,6 +260,25 @@
 			path = ItemInfoVCs;
 			sourceTree = "<group>";
 		};
+		04EC51DF29D80EE300E5C58F /* TabBarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04EC51E029D80F0F00E5C58F /* GFTabBarController.swift */,
+			);
+			path = TabBarControllers;
+			sourceTree = "<group>";
+		};
+		04EC51E229D80F3300E5C58F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				041CB5FD29D0411A0019D3FF /* AppDelegate.swift */,
+				041CB5FF29D0411A0019D3FF /* SceneDelegate.swift */,
+				041CB60629D0411C0019D3FF /* Assets.xcassets */,
+				041CB60829D0411C0019D3FF /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,6 +365,7 @@
 				04EC51CF29D56B8300E5C58F /* GFItemInfoView.swift in Sources */,
 				04EC51DE29D6F58100E5C58F /* FavoriteCell.swift in Sources */,
 				04EC51C929D44AC500E5C58F /* GFUserInfoHeaderVC.swift in Sources */,
+				04EC51E129D80F0F00E5C58F /* GFTabBarController.swift in Sources */,
 				047E9D4929D2D36700B9D115 /* FollowerCell.swift in Sources */,
 				047E9D4629D2CBAC00B9D115 /* GFError.swift in Sources */,
 				041CB61E29D1DDEB0019D3FF /* GFBodyLabel.swift in Sources */,
@@ -511,7 +531,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mm.GHFollowers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mancmiller.GHFolllowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -541,7 +561,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mm.GHFollowers;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mancmiller.GHFolllowers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
