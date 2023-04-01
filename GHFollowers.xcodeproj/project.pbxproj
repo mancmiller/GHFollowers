@@ -39,6 +39,7 @@
 		04EC51D829D58F2000E5C58F /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51D729D58F2000E5C58F /* Date+Ext.swift */; };
 		04EC51DA29D58F5B00E5C58F /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51D929D58F5B00E5C58F /* String+Ext.swift */; };
 		04EC51DC29D6EA5C00E5C58F /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51DB29D6EA5C00E5C58F /* PersistenceManager.swift */; };
+		04EC51DE29D6F58100E5C58F /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC51DD29D6F58100E5C58F /* FavoriteCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		04EC51D729D58F2000E5C58F /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		04EC51D929D58F5B00E5C58F /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		04EC51DB29D6EA5C00E5C58F /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		04EC51DD29D6F58100E5C58F /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				047E9D4829D2D36700B9D115 /* FollowerCell.swift */,
+				04EC51DD29D6F58100E5C58F /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				041CB62029D1DEFC0019D3FF /* GFAlertVC.swift in Sources */,
 				04EC51D529D57B9500E5C58F /* GFFollowerItemVC.swift in Sources */,
 				04EC51CF29D56B8300E5C58F /* GFItemInfoView.swift in Sources */,
+				04EC51DE29D6F58100E5C58F /* FavoriteCell.swift in Sources */,
 				04EC51C929D44AC500E5C58F /* GFUserInfoHeaderVC.swift in Sources */,
 				047E9D4929D2D36700B9D115 /* FollowerCell.swift in Sources */,
 				047E9D4629D2CBAC00B9D115 /* GFError.swift in Sources */,
