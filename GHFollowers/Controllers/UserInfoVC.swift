@@ -22,7 +22,7 @@ class UserInfoVC: UIViewController {
     
     var username: String!
     weak var delegate: FollowerListVCDelegate!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureVC()
@@ -61,7 +61,14 @@ class UserInfoVC: UIViewController {
         self.add(childVC: repoItemVC, to: self.itemViewOne)
         self.add(childVC: followerItemVC, to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
-        self.dateLabel.text = "GitHub since \(user.createdAt.convertToDisplayFormat())"
+        self.dateLabel.text = """
+        GitHub since \(user.createdAt.formatted(
+    .dateTime
+.year()
+.month()
+.locale(Locale(identifier: "en_US"))
+))
+"""
     }
     
     func layoutUI() {
