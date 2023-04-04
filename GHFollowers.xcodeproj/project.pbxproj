@@ -116,10 +116,10 @@
 			children = (
 				047E9D4429D2CB8F00B9D115 /* Utilities */,
 				047E9D4129D2AF3E00B9D115 /* Managers */,
-				041CB62529D1F0B20019D3FF /* Extensions */,
-				041CB62329D1EFBF0019D3FF /* Controllers */,
-				041CB62429D1F0330019D3FF /* Custom Views */,
 				041CB62629D1F11A0019D3FF /* Models */,
+				041CB62529D1F0B20019D3FF /* Extensions */,
+				041CB62429D1F0330019D3FF /* Custom Views */,
+				041CB62329D1EFBF0019D3FF /* Controllers */,
 				04EC51E229D80F3300E5C58F /* Support */,
 				041CB60B29D0411C0019D3FF /* Info.plist */,
 			);
@@ -246,8 +246,8 @@
 		0498F0D829D416D500ADE047 /* Labels */ = {
 			isa = PBXGroup;
 			children = (
-				041CB61D29D1DDEB0019D3FF /* GFBodyLabel.swift */,
 				041CB61B29D1DBEA0019D3FF /* GFTitleLabel.swift */,
+				041CB61D29D1DDEB0019D3FF /* GFBodyLabel.swift */,
 				04EC51CA29D44B3300E5C58F /* GFSecondaryTitleLabel.swift */,
 			);
 			path = Labels;

@@ -56,12 +56,12 @@ class UserInfoVC: GFDataLoadingVC {
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.dateLabel.text = """
         GitHub since \(user.createdAt.formatted(
-    .dateTime
-.year()
-.month()
-.locale(Locale(identifier: "en_US"))
-))
-"""
+            .dateTime
+                .year()
+                .month()
+                .locale(Locale(identifier: "en_US"))
+        ))
+        """
     }
     
     func layoutUI() {

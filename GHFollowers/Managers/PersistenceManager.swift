@@ -20,8 +20,10 @@ enum PeristenceManager {
     
     static func updateWith(favorite: Follower, actionType: PersistenceActionType, completed: @escaping (GFError?) -> Void) {
         retrieveFavorites { result in
+            
             switch result {
             case .success(var favorites):
+                
                 switch actionType {
                 case .add:
                     guard !favorites.contains(favorite) else {
@@ -30,6 +32,7 @@ enum PeristenceManager {
                     }
                     
                     favorites.append(favorite)
+                    
                 case .remove:
                     favorites.removeAll { $0.login == favorite.login }
                 }
